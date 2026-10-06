@@ -1,0 +1,35 @@
+Create project:
+  1. Terminal: npx create-next-app@16.3
+
+To run:
+  Terminal: npm run dev
+
+To create React component:
+  Terminal: rafce
+
+To build project for production:
+  Terminal: npm run build
+
+To start the application for production:
+  Terminal: npm start
+
+Adding daisyUI:
+  visit website
+  Terminal: npm i -D daisyui@latest
+  @plugin "daisyui"; in app.css
+  Choose Next.js in the website
+  postcss.config.mjs: 
+    /** @type {import('postcss-load-config').Config} */
+    const config = {
+      plugins: {
+        '@tailwindcss/postcss': {},
+      },
+    };
+    export default config;
+    
+  in app/globals.css
+    @import "tailwindcss";
+    @plugin "daisyui";
+
+Adding react compiler for Next.js 16
+  Terminal: 
