@@ -32,4 +32,4 @@ Adding daisyUI:
     @plugin "daisyui";
 
 Adding react compiler for Next.js 16
-  Terminal: 
+  Terminal: npm install babel-plugin-react-compiler@latest
